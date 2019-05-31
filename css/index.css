@@ -206,4 +206,24 @@ header nav a {
 .box-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.box-container div {
+    width: 370px;
+    margin: 25px 0px;
+    border-bottom: 1px dashed black;
+}
+
+.box-container h2 {
+    margin: 10px 0px;
+}
+
+.box-container button {
+    margin: 20px 0px;
+    padding: 8px 25px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-weight: 600;
 }
