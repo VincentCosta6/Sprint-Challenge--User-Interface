@@ -280,6 +280,11 @@ header nav a:hover {
 form {
     display: flex;
     flex-flow: column wrap;
+    margin: 25px;
+}
+
+form h1 {
+    font-size: 32px;
 }
 
 form input {
@@ -300,5 +305,23 @@ form textarea {
     width: 100%;
     font-size: 20px;
     height: 300px;
-    
+}
+
+input[type='submit'] {
+    padding: 15px 0px;
+    margin: 25px 0px;
+    background-color: white;
+    border: 2px solid black;
+    width: 250px;
+
+    transition: all .7s;
+}
+
+input[type='submit']:hover {
+    padding: 15px 0px;
+    margin: 25px 0px;
+    background-color: black;
+    color: white;
+    width: 300px;
+    cursor: pointer;
 }
