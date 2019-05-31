@@ -110,6 +110,16 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 15px;
+
+    transition: width .3s, border-radius .7s, opacity .7s;
+}
+
+.middle-content .boxes .box:hover {
+    cursor: pointer;
+    width: 17%;
+    border-radius: 10px;
+    opacity: .7;
 }
 
 .bottom-content {
