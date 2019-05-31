@@ -227,3 +227,14 @@ header nav a {
     border: 2px solid black;
     font-weight: 600;
 }
+
+.about {
+    margin: 25px 0px;
+    padding: 0px 25px 25px 25px;
+    border-bottom: 1px dashed black;
+}
+
+.together {
+    margin: 25px 0px;
+    padding: 0px 25px 25px 25px;
+}
