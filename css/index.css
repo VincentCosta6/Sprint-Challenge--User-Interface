@@ -274,3 +274,31 @@ header nav a:hover {
     margin: 25px 0px;
     padding: 0px 25px 25px 25px;
 }
+
+/*///////////////////////////////////////////////////////////*/
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+form input {
+    font-size: 25px;
+}
+
+form section {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px 0px;
+}
+
+form span {
+    font-size: 25px;
+}
+
+form textarea {
+    width: 100%;
+    font-size: 20px;
+    height: 300px;
+    
+}
