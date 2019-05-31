@@ -17,3 +17,5 @@ The vertical or cross axis
 5. Explain why git is valuable to a team of developers.
 
 Git allows developers to save their work safely and reliably. If something goes wrong the work can be reverted back to any point in time and if the files are lost you can always pull the code. Branches are especially important if you want to work on a feature while not affecting the main branch. You have the ability to merge branches together once you are ready
+
+mvp met
